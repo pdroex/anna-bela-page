@@ -1,0 +1,57 @@
+body {
+    background: #d2d2c1 url('imagens/fundo.pnj');
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#principal {
+    width: 900px;
+}
+
+#menu {
+    background: #c5c5b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-justify: auto;
+    background: #e8e8e9;
+    padding-bottom: 20px;
+}
+
+p {
+    max-width: 700px;
+}
+
+#conteudo h2 {
+    padding: 15px;
+}
+
+a {
+    padding: 10px;
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: black;
+    color:  white;
+    transition: 500ms;
+}
+
+div #rodape {
+    width: 100%;
+    background-color: #4b566a;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
