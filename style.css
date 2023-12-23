@@ -27,6 +27,25 @@ body {
     padding-bottom: 20px;
 }
 
+#biografia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-justify: auto;
+    background: #e8e8e9;
+    padding-bottom: 20px;
+}
+
+#campanhas-publicitarias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-justify: auto;
+    background: #e8e8e9;
+    padding-bottom: 20px;
+}
 p {
     max-width: 700px;
 }
@@ -43,8 +62,12 @@ a {
     transition: 0.5s;
 }
 
+img {
+    border: 5px solid #c3c3ae;
+}
+
 a:hover {
-    background-color: black;
+    background-color: rgb(85, 87, 61);
     color:  white;
     transition: 500ms;
 }
@@ -54,4 +77,8 @@ div #rodape {
     background-color: #4b566a;
     text-align: center;
     padding: 15px 0 15px 0;
+}
+
+#rodape h4 {
+    color: white;
 }
