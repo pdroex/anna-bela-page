@@ -37,6 +37,10 @@ body {
     padding-bottom: 20px;
 }
 
+#mi {
+    border: none;
+}
+
 #campanhas-publicitarias {
     display: flex;
     flex-direction: column;
