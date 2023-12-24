@@ -12,6 +12,7 @@ body {
 
 #menu {
     background: #c5c5b2;
+    margin: 0 0 5px 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -37,9 +38,6 @@ body {
     padding-bottom: 20px;
 }
 
-#mi {
-    border: none;
-}
 
 #campanhas-publicitarias {
     display: flex;
@@ -59,14 +57,16 @@ p {
 }
 
 a {
+    width: 100%;
     padding: 10px;
     color: #4b566a;
+    text-align: center;
     text-decoration: none;
     font-weight: bold;
     transition: 0.5s;
 }
 
-img {
+.img {
     border: 5px solid #c3c3ae;
 }
 
